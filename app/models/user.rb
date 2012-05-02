@@ -1,4 +1,9 @@
-class User < ActiveRecord::Base
+class User < Neo4j::Rails::Model
+
+  property :name, :index => :exact
+  property :email, :index => :exact
+  property :password
+
   # Include default devise modules. Others available are:
   # :token_authenticatable, :encryptable, :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,

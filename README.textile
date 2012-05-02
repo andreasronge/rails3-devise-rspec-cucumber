@@ -1,3 +1,8 @@
+h1. Neo4j 
+
+This project has been modified to work with the Neo4j ORM.
+See http://andreasronge.github.com/neo4j
+
 h1. Rails Application for Devise with RSpec and Cucumber
 
 Rails 3.2 example application shows how to use "Devise":http://github.com/plataformatec/devise with "RSpec":http://rspec.info/ and "Cucumber":http://cukes.info/. 
