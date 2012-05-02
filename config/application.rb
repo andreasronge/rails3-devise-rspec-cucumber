@@ -3,7 +3,8 @@ require File.expand_path('../boot', __FILE__)
 # Pick the frameworks you want:
 #require "active_record/railtie"
 require 'neo4j'
-require 'devise-neo4j'
+require 'devise/orm/neo4j'
+#require 'devise-neo4j'
 require "action_controller/railtie"
 require "action_mailer/railtie"
 require "active_resource/railtie"
